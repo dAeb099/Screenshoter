@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.purple {
+  color: #9702ae;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.gray {
+  color: #828282;
+}
+
+.white {
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.lang {
+  border: none;
+  padding: 5px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  position: relative;
+}
+
+.intro__left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+  width: 790px;
+}
+
+.intro__header {
+  width: 50%;
+  font-size: 40px;
+}
+
+.intro__header__text {
+  background-color: rgba(219, 3, 252, 0.3);
+  border: 3px solid #db03fc;
+}
+
+.intro__text {
+  width: 450px;
+  line-height: 25px;
+}
+
+.intro__btn {
+  background: linear-gradient(to right, #7421b0, #d08eff);
+  color: #fff;
+  padding: 30px 55px;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+}
+
+.intro__right {
+  width: 500px;
+  position: relative;
+}
+
+.intro__img1 {
+  z-index: 5;
+  position: absolute;
+  right: 40px;
+  width: 600px;
+  top: -100px;
+}
+
+.intro__img2 {
+  top: -200px;
+  width: 500px;
+  position: absolute;
+  right: -30px;
+}
+
+.intro__ponchik {
+  position: absolute;
+  left: -40px;
+  top: 50px;
+}
+
+.DecorativeLine {
+  position: absolute;
+  width: 1440px;
+  left: -40px;
+  z-index: 3;
+}
+
+.intro__rightt {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 280px;
+  padding: 20px;
+  z-index: 10;
+  bottom: -250px;
+  right: 100px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.screenshot {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.screenshot__top {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.screenshot__text {
+  width: 500px;
+  line-height: 25px;
+}
+
+.screenshot__header {
+  width: 400px;
+}
+
+.screenshot__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.screenshot__item {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px grey;
+}
+
+.screenshot__item:nth-child(1) {
+  background-color: #7421b0;
+  color: #fff;
+}
+
+.facilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.facilities__div {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 50px 0;
+}
+
+.facilities__div__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 22.5px;
+  & h2 {
+    padding: 15px 0;
+  }
+}
+
+.facilities__div:nth-child(2),
+.facilities__div:nth-child(4) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.facilities__line {
+  position: absolute;
+  width: 1500px;
+  left: -32px;
+  z-index: -15;
+  top: -100px;
+}
+
+.rectangle26 {
+  position: absolute;
+  z-index: -5;
+  height: 500px;
+  width: 800px;
+  left: -100px;
+  bottom: 1750px;
+}
+
+.ellipse1 {
+  position: absolute;
+  z-index: -100;
+  right: 40px;
+  width: 600px;
+  top: 400px;
+}
+
+.kub {
+  position: absolute;
+  z-index: -200;
+  top: 430px;
+  right: 260px;
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 700px;
+  z-index: -100;
+  left: 50px;
+}
+
+.kamen {
+  position: absolute;
+  z-index: -200;
+  left: 50px;
+  width: 150px;
+  top: 1025px;
+}
+
+.rectangle22 {
+  position: absolute;
+  width: 700px;
+  z-index: -100;
+  right: 50px;
+}
+
+.ponchik2 {
+  position: absolute;
+  z-index: -200;
+  top: 1560px;
+  right: 260px;
+}
