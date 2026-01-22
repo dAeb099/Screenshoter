@@ -59,8 +59,6 @@ a {
   justify-content: center;
   margin: 50px 0;
   position: relative;
-  border-style: dashed;
-  border: 2px solid #000;
 }
 
 .intro__left {
